@@ -6,6 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge 2</title>
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/challenge-2.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="card">
+        <header>
+          <a href="index.html" class="link">
+            <img class="chevron-left" src="assets/chevron-left.svg" alt="" />
+          </a>
+          <h2 class="page-heading">Order Details</h2>
+          <div class="hidden"></div>
+        </header>
+        <div class="product">
+          <img class="product-img" src="assets/headphones.jpg" alt="" />
+          <div class="product-information">
+            <div>
+              <h1 class="product-name">AKG N700NCM2</h1>
+              <p class="product-price">$199.00 (~$4.00 taxes)</p>
+            </div>
+            <div class="quantity">
+              <button class="quantity-button">-</button>
+              <span class="quantitiy-value">1</span>
+              <button class="quantity-button">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="sections">
+          <section>
+            <h3 class="section-heading">Delivery Location</h3>
+            <a href="index.html" class="section-row">
+              <div class="row-group">
+                <div class="square"></div>
+                <div>
+                  <p class="row-heading">Rustaveli Ave 57,</p>
+                  <p class="row-value">17-001, Batsumi</p>
+                </div>
+              </div>
+              <img
+                class="chevron-right"
+                src="assets/chevron-right.svg"
+                alt="Chevron Right"
+              />
+            </a>
+          </section>
+          <section>
+            <h3 class="section-heading">Payment Method</h3>
+            <a href="index.html" class="section-row">
+              <div class="row-group">
+                <div class="square"></div>
+                <div>
+                  <p class="row-heading">Visa Classic</p>
+                  <p class="row-value">****-0921</p>
+                </div>
+              </div>
+              <img
+                class="chevron-right"
+                src="assets/chevron-right.svg"
+                alt="Chevron Right"
+              />
+            </a>
+          </section>
+        </div>
+        <h3 class="order-info">Order Info</h3>
+        <div class="shipping">
+          <div class="order-row">
+            <p class="row-description">Subtotal</p>
+            <p class="row-amount">$199.00</p>
+          </div>
+          <div class="order-row">
+            <p class="row-description">Shipping Cost</p>
+            <p class="row-amount">+$10.00</p>
+          </div>
+        </div>
+        <div class="order-row">
+          <p class="row-description">Subtotal</p>
+          <p class="row-amount" id="total">$209.00</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
