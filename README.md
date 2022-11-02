@@ -1,0 +1,4 @@
+- [Figma file](https://www.figma.com/file/FWrLPqfzKYXx7CzzoCmMiH/Flexbox-Challenges?node-id=0%3A1)
+- Font used: Inter (Google Fonts)
+- Try to not set widths and heights. Work with the content size and paddings / margins
+- Use flexbox as much as possible
