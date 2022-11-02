@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 55%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+#card-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+#card-content {
+  padding-inline: 40px;
+  padding-block: 20px;
+}
+
+#shopping {
+  font-size: 12px;
+  color: #3169d8;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#product-name {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.address-group {
+  display: flex;
+  align-items: center;
+}
+
+.square {
+  height: 60px;
+  border-radius: 12px;
+  opacity: 20%;
+  aspect-ratio: 1/1;
+  background-color: #d9d9d9;
+  margin-right: 18px;
+}
+
+#chevron {
+  height: 20px;
+}
+
+.ruler {
+  height: 1px;
+  background-color: rgba(138, 138, 138, 0.4);
+  margin-block: 24px;
+}
+
+#price {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #3169d8;
+  color: white;
+  margin-top: 24px;
+  padding-block: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
